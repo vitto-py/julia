@@ -1,0 +1,20 @@
+#+title: Notes Ch02
+
+
+* Quick Insights
+how to open Pluto
+1. Open a Terminal
+2. import Pluto; Pluto.run()
+
+The tolerance of the function isapprox(a,b) is around 1.5e-8
+
+You can use LATEX in Julia \approx<tab> \alpha<tab>, and much more
+* Install/Add IJulia
+IJulia is an extension for jupyter notebooks for Julia
+#+begin_quote
+using Pkg
+Pkg.add("IJulia")
+using IJulia
+notebook()
+#+end_quote
+this will add to jupyter nb the Julia language
